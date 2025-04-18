@@ -2,7 +2,7 @@
 
 ## How to Use
 * The API should be up and running on the IP address: 35.232.83.76 (on port 5000)
-* To access the API, the url has the following format: http://35.232.83.76:5000/api/time?city={cityname}
+* To access the API, the url has the following format: http://35.232.83.76:5000/api/time?city={cityname}. You must provide a valid city name from the list of 195 below for the API to work
 * The API requires the secret token: "supersecrettoken123" in the header to be accessed, so simply going to the url via a web browser will not have authorization
 * To access the API via a curl command, you can use something like: `curl -X GET "http://35.232.83.76:5000/api/time?city=London" -H "Authorization: Be
 arer supersecrettoken123"`
